@@ -1,0 +1,132 @@
+
+body {
+  margin: 0;
+  background-color: #000;
+}
+
+
+/* created a "hero image" type of header by combining a background image and a transparent gradient on top of it */
+header {
+  height: 646px;
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(NicoleMacdonald.jpg);
+  background-size: cover;
+}
+
+
+/* I wanted the text elements in the header to play nicely with the image, so I chose "justify" for the alignment of the h1, h2, p, and a elements in the header. I also added padding-left: 40px to each element so that they aligned specifically where I wanted them to be in relation to the "hero image." */
+header h1 {
+  text-align: justify;
+  color: #fff;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 68px;
+  padding-top: 270px;
+  padding-left: 40px;
+  margin-top: 0px;           
+  margin-bottom: 0px;        
+}
+
+header h2 {
+  text-align: justify;
+  color: #fff;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 24px; 
+  padding-left: 40px;       
+  margin-top: 0px;
+  margin-bottom: 40px;               
+}
+
+header p {
+  text-align: justify;
+  padding-left: 40px
+}
+
+header p a {
+  color: #fff;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 17px;
+  background-color: #000;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 15px 25px;         
+  border-radius: 5px;        
+}
+
+/*this section styles the main navigation bar.*/
+nav ul {
+  background-color: #000;
+  list-style-type: none;         /*Removes the bullet points from the list, since navigation bars don't need list markers :) */
+  margin: 0px;
+  padding: 20px;
+}
+
+nav li {
+  display: inline;           /* to remove the line breaks before and after each list item so that nav links display on one line*/
+  font-family: 'Courier New', Courier, monospace;
+  text-transform: uppercase;
+  margin: 10px;
+}
+
+/* link pseudo-class styling*/
+a:link    { color: #fff;  }
+a:visited { color: #a3cef1;   }
+a:hover   { color: #6096ba; }
+a:active  { color: #8b8c89;  }
+
+
+/* wrapper for content in <main> */
+.wrapper {
+  width: 700px;
+  margin: auto;
+}
+
+
+/* styling for content in <main>, including horizontal ruler styling, background color, font-family, font color, padding, and margins */
+main {
+  align-content: center;
+  background-color: #000;
+  padding: 30px;
+  margin-top: 30px;
+}
+
+main p, h2, h3, main li {
+  color:#fff;
+  font-family:'Courier New', Courier, monospace;
+}
+
+main h2{
+  font-size: 30px;
+}
+
+main h3 {
+  font-size: 18px;
+}
+
+/* styling to center the image */
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+hr {
+  color: #fff;
+  height: 0px;
+  background-color: #000;
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+
+
+/* footer styling */
+footer {
+  text-align: center;
+  background-color: #000;
+  color:#fff;
+  font-family: 'Courier New', Courier, monospace;
+  padding: 40px;
+}
+
+footer a {
+  text-transform: uppercase;
+}
