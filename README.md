@@ -63,4 +63,4 @@ Your portfolio must be hosted on GitHub Pages, and it must include the following
 
 I really enjoyed this project because it allowed me to practice my newly learned HTML/CSS skills from [Thinkful's](https://github.com/Thinkful-Ed) curriculum, and I had the opportunity to learn even more HTML/CSS techniques in order to create the specific look I wanted for this page. 
 
-[click to view page](https://nikki-mac.github.io/portfolio/)
+[Click here to view page](https://nikki-mac.github.io/portfolio/)
