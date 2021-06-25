@@ -61,6 +61,6 @@ Your portfolio must be hosted on GitHub Pages, and it must include the following
 * Comments throughout your HTML and CSS that explain your code
 
 
-I really enjoyed this project because it allowed me to practice my newly learned HTML/CSS skills from Thinkful's curriculum, and I had the opportunity to learn even more HTML/CSS techniques in order to create the specific look I wanted for this page. 
+I really enjoyed this project because it allowed me to practice my newly learned HTML/CSS skills from [Thinkful's](https://github.com/Thinkful-Ed) curriculum, and I had the opportunity to learn even more HTML/CSS techniques in order to create the specific look I wanted for this page. 
 
-link to view page: 
+[click to view page](https://nikki-mac.github.io/portfolio/)
